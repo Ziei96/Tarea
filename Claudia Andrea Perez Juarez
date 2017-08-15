@@ -1,0 +1,7 @@
+size(640,640);
+
+int l=50;
+for(int i=0; i<=640; i+=50)
+  for(int j=0;j<=640;j+=50)
+    triangle(i,j-l/2,i+l/2,j+l/2,i-l/2,j+l/2);
+  
